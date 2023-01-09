@@ -4,12 +4,12 @@
 
 body{
     background-color: skyblue;
-    width: 100vw;
-    height: 100vh;
+   
 }
 .container{
     text-align: center;
     text-transform: capitalize;
+    
 }
 .container div{
     display: flex;
@@ -57,6 +57,21 @@ section img{
     transition: all 0.5s;
     
 }
+footer{
+    
+width: 100%;    
+    text-align: center;
+    
+}
+footer p{
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: lowercase;
+    left: 50%;
+}
+
 
 
 
