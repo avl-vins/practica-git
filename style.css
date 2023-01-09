@@ -1,0 +1,35 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    text-transform: capitalize;
+}
+.container div{
+    display: flex;
+}
+.container section{
+    width: 100%;
+    height: 100%;
+}
+section img{
+    max-width: 50%;
+}
+.container section img:nth-child(2n){
+    border: 3px solid greenyellow;
+    border-radius: 15px;
+ 
+}
+.container section img:nth-child(2n+1){
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+
+
