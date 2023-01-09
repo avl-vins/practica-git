@@ -30,6 +30,29 @@ section img{
     border: 5px solid red;
     border-radius: 15px;
 }
+.lista-heroes{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.lista-heroes li{
+    display: inline-block;
+ list-style: none;
+ margin: 10px;
+ border: 1px solid green;
+ padding: 10px;
+ width: 200px;
+ border-radius: 15px;
+ font-weight: bold;
+ font-size: 18px;
+}
+.lista-heroes li:hover{
+    cursor: pointer;
+    background-color: rgb(80, 167, 201);
+    scale: 1.08;
+    transition: all 0.5s;
+    
+}
 
 
 
